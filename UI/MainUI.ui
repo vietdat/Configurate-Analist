@@ -40,58 +40,6 @@
      <string>Categories</string>
     </property>
    </widget>
-   <widget class="QCheckBox" name="cbOU">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>120</y>
-      <width>85</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>OU</string>
-    </property>
-   </widget>
-   <widget class="QCheckBox" name="cbTuition">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>150</y>
-      <width>85</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Tuition</string>
-    </property>
-   </widget>
-   <widget class="QCheckBox" name="cbLivingExpense">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>180</y>
-      <width>141</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Living Expense</string>
-    </property>
-   </widget>
-   <widget class="QCheckBox" name="cbOthers">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>210</y>
-      <width>85</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Others</string>
-    </property>
-   </widget>
    <widget class="Line" name="line">
     <property name="geometry">
      <rect>
@@ -134,9 +82,9 @@
    <widget class="QScrollArea" name="scrollArea">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>120</y>
-      <width>291</width>
+      <x>270</x>
+      <y>130</y>
+      <width>301</width>
       <height>121</height>
      </rect>
     </property>
@@ -148,7 +96,7 @@
       <rect>
        <x>0</x>
        <y>0</y>
-       <width>289</width>
+       <width>299</width>
        <height>119</height>
       </rect>
      </property>
@@ -165,6 +113,42 @@
     </property>
     <property name="text">
      <string>Question</string>
+    </property>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea_category">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>221</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="listCheckBox_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>219</width>
+       <height>119</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btnNewCategory">
+    <property name="geometry">
+     <rect>
+      <x>169</x>
+      <y>100</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>New</string>
     </property>
    </widget>
   </widget>
